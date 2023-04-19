@@ -3,6 +3,7 @@
     height:50px;
     background-color: aqua;
     border-radius: 10px;
-    padding:;
+    padding:10px 10px 10px 10px ;
+    position:absolute;
 }
 

@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Node from './components/nodes/nodes.jsx';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Node title="node1" description="this is node 1"></Node>
-    <Node title="node2" description="this is node 2"></Node>
+    <App></App>
   </React.StrictMode>
 );
 
